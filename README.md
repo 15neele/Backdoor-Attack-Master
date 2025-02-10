@@ -27,12 +27,7 @@ supports various attack vectors. The code is mostly based on
 ## Current status
 
 We try to incorporate new attacks and defenses as well as to extend
-the supported datasets and tasks. Here is the high-level overview of the
- possible attack vectors: 
- 
-<p align="center">
-<img src="./src/attack_vectors.png" alt="drawing" width="600"/>
-</p>
+the supported datasets and tasks.
 
 ### Backdoors
 * Pixel-pattern (incl. single-pixel) - traditional pixel modification attacks.
@@ -133,19 +128,12 @@ for example a model trained on a task to count people
  in the image might contain a backdoor task to identify particular
   individuals. 
 
-<p align="center">
-<img src="./src/complex.png" alt="drawing" width="400"/>
-</p>
-
 4. **Supporting multiple backdoors.** Our definition enables multiple
  backdoor tasks. As a toy example we can attack a model that recognizes a two
  -digit
  number and inject two new backdoor tasks: one that sums up digits and another 
  one that multiplies them. 
- 
- <p align="center">
-<img src="./src/calculator.png" alt="drawing" width="400"/>
-</p>
+
 
 5. **Methods to inject backdoor task.** Depending on a selected threat
 model the attack can inject backdoors by
