@@ -1,9 +1,5 @@
 # Backdoors Attack Defense
 
-<p align="center">
-<img src="./src/pixel_vs_semantic.png" alt="drawing" width="600"/>
-</p>
-
 Backdoors Attack Defense &mdash; is a PyTorch framework for state-of-the-art backdoor 
 defenses and attacks on deep learning models. 
 It includes real-world datasets, centralized and federated learning, and
